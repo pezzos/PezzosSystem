@@ -1,0 +1,6 @@
+.DS_Store
+.offload/
+__pycache__/
+*.pyc
+
+# PezzosCode bootstrap

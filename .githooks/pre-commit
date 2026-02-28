@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+tools/pc-precommit
+
+# PezzosCode bootstrap sha256:af2db8935d144019f151c354f7bb0f34cd8fbfb7e582b14d5c8661edacffc886

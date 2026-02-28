@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+if ! command -v pre-commit >/dev/null 2>&1; then
+  echo "pre-commit not installed. Install with: pipx install pre-commit" >&2
+  exit 1
+fi
+
+pre-commit run --hook-stage pre-push
+
+# PezzosCode bootstrap sha256:b37b356e6477ea03cd2628ec4c02f419d914630815b033df0d2e076411234719
